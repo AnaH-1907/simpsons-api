@@ -7,10 +7,8 @@ function DisplayQuotes ({ oneQuote }) {
         src={oneQuote.image}
         alt={oneQuote.character}
       />
-      <ul>
-        <li>Character: {oneQuote.character}</li>
-        <li>Quote: {oneQuote.quote}</li>
-      </ul>
+      <p>Character: {oneQuote.character}</p>
+      <p>Quote: {oneQuote.quote}</p>
     </div>
   );
 }
