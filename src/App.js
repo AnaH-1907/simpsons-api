@@ -14,8 +14,7 @@ class App extends React.Component {
     super(props);
     this.state = {
       oneQuote: sampleQuote
-    };
-     this.getQuote = this.getQuote.bind(this);
+    }; this.getQuote = this.getQuote.bind(this);
   }
 
   getQuote () {
